@@ -9,4 +9,4 @@ on a dataset I found on Kaggle.
 
 
 <br /><br />
-I Took This Dataset From [Here](https://www.kaggle.com/datasets/goelyash/housing-price-data-of-mumbai?rvi=1){:target="_blank"}
+I Took This Dataset From [Here](https://www.kaggle.com/datasets/goelyash/housing-price-data-of-mumbai?rvi=1)
