@@ -1,6 +1,6 @@
 ## Amchi Mumbai
 
-<img src="Images/logo.png" width="300px" height="auto">
+<img src="Images/logo.png" width="350px" height="auto">
 
 <br>
 This is a personal project that predicts house prices, based 
