@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai House Price Predictor - Predict</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" class="logo">
+        </div>
+        <div class="content-container">
+            <h1>Predict Mumbai House Price</h1>
+            <form action="/prediction" method="POST" accept-charset="UTF-8">
+                <label for="Address">Location:</label>
+                <select id="Address" name="Address" required>
+                    {% for location in locations %}
+                        <option value="{{ location }}">{{ location }}</option>
+                    {% endfor %}
+                </select>
+                <br>
+                <label for="area">Square Footage:</label>
+                <input type="number" id="area" name="area" required>
+                <label for="Bedrooms">Number of Bedrooms:</label>
+                <input type="number" id="Bedrooms" name="Bedrooms" required>
+                <label for="Bathrooms">Number of Bathrooms:</label>
+                <input type="number" id="Bathrooms" name="Bathrooms" required>
+                <button type="submit">Predict</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

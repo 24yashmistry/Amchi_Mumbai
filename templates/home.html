@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai House Price Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" class="logo">
+        </div>
+        <div class="content-container">
+            <h1>Welcome to Mumbai House Price Predictor</h1>
+            <p>
+                This web application is built using Flask and features a machine learning model for predicting house prices in Mumbai.
+            </p>
+            <br>
+            <p>
+                The model is created using Python programming language, utilizes machine learning algorithms, and employs tools like scikit-learn for model development.
+            </p>
+            <br>
+            <p>
+                Click the button below to predict Mumbai house prices by yourself.
+            </p>
+            <br>
+            <a href="/predict" class="predict-button">Predict Mumbai House Price</a>
+        </div>
+    </div>
+</body>
+</html>

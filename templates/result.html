@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai House Price Predictor - Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" class="logo">
+        </div>
+        <div class="content-container">
+            <h1>House Price Prediction Result</h1>
+            <div class="result-container">
+                <p>
+                    Location: {{ location }}
+                </p>
+                <p>
+                    Predicted House Price: ₹{{ prediction }}
+                </p>
+            </div>
+            <p>
+                <a href="/">Go back to home page</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
