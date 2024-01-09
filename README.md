@@ -64,7 +64,7 @@ This project is licensed under the [MIT License](LICENSE.md).
 
 ## Contact Information
 
-For any questions or concerns, please contact Yash Mahendra Mistry at <a href="https://24yashmistry@gmail.com">My Gmail</a>
+For any questions or concerns, please contact `Yash Mahendra Mistry` at `24yashmistry@gmail.com`
 
 <br /><br />
 I Took This Dataset From [Here](https://www.kaggle.com/datasets/goelyash/housing-price-data-of-mumbai?rvi=1)
