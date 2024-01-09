@@ -1,6 +1,6 @@
 # Amchi Mumbai
 
-<img src="Images/logo.png" width="350px" height="auto">
+<img src="logo.png" width="350px" height="auto">
 
 ## Description
 
