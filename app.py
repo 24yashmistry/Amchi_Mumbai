@@ -34,9 +34,18 @@ def prediction():
 
         # Make prediction using the loaded model
         prediction = model.predict(input_data)
+        n = prediction[0]
+        n = f'{n:,}'
+        res = ""
+
+        for i in n:
+            if(i != '.'):
+                res+=i
+            else:
+                break
 
         # Display the prediction on a new page
-        return render_template('result.html', location=locations, prediction=int(prediction[0]))
+        return render_template('result.html', location=locations, prediction=res)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -107,3 +107,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.res{
+    width: auto;
+    height: auto;
+    border: #2c3e50 double;
+    padding: 10px;
+}
