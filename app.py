@@ -8,7 +8,7 @@ app = Flask(__name__)
 data = pd.read_csv('Final Cleaned data.csv')
 
 # Load your trained model
-model = joblib.load('Model\Aamchi_Mumbai_joblib.pkl')
+model = joblib.load('Aamchi_Mumbai_joblib.pkl')
 
 @app.route('/')
 def home():
@@ -47,5 +47,5 @@ def prediction():
         # Display the prediction on a new page
         return render_template('result.html', location=locations, prediction=res)
 
-# if __name__ == '__main__':
-#     app.run()
+if __name__ == '__main__':
+    app.run()
