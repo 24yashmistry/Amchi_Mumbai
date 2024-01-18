@@ -1,6 +1,6 @@
 # Amchi Mumbai
 
-<a href="https://amchi-mumbai.onrender.com/" target="_blank">Google</a>
+<a href="https://amchi-mumbai.onrender.com/" target="_blank">amchi-mumbai.onrender.com</a>
 
 <img src="logo.png" width="350px" height="auto">
 
